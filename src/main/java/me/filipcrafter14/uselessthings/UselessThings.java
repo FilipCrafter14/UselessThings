@@ -1,7 +1,6 @@
 package me.filipcrafter14.uselessthings;
 
 
-import me.filipcrafter14.uselessthings.init.SideProxy;
 import me.filipcrafter14.uselessthings.lists.BlockList;
 import me.filipcrafter14.uselessthings.lists.ItemList;
 import net.minecraft.block.Block;
@@ -62,8 +61,8 @@ public class UselessThings {
             event.getRegistry().registerAll(
 
             //Items
-            ItemList.redstone_infused_shard = new Item(new Item.Properties().group(group)).setRegistryName(location("redstone_infused_shard")),
-            ItemList.redstone_infused_shard = new Item(new Item.Properties().group(group)).setRegistryName(location("redstone_infused_pearl")),
+            //ItemList.redstone_infused_shard = new Item(new Item.Properties().group(group)).setRegistryName(location("redstone_infused_shard")),
+            ItemList.redstone_infused_pearl = new Item(new Item.Properties().group(group)).setRegistryName(location("redstone_infused_pearl")),
             ItemList.pearl_shard = new Item(new Item.Properties().group(group)).setRegistryName(location("pearl_shard")));
 
             Logger.info("Items registered!");

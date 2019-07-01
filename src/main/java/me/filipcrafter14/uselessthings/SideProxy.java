@@ -1,5 +1,7 @@
-package me.filipcrafter14.uselessthings.init;
+package me.filipcrafter14.uselessthings;
 
+import me.filipcrafter14.uselessthings.init.ModBlocks;
+import me.filipcrafter14.uselessthings.init.ModItems;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent;
@@ -9,6 +11,8 @@ public class SideProxy {
     SideProxy(){
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(SideProxy::commonSetup);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(ModBlocks::registerAll);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(ModItems::registerAll);
 
     }
 
