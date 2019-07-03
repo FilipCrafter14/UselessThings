@@ -8,7 +8,7 @@
     <module name="useless-things_main"/>
     <envs>
       <env name="MOD_CLASSES" value="examplemod%%/Users/filip.skrget/Desktop/F1/useless-things/build/resources/main:examplemod%%/Users/filip.skrget/Desktop/F1/useless-things/build/classes/java/main"/>
-      <env name="MCP_MAPPINGS" value="snapshot_20180921-1.13"/>
+      <env name="MCP_MAPPINGS" value="snapshot_20190530-1.13.2"/>
       <env name="MCP_VERSION" value="20190213.203750"/>
       <env name="FORGE_VERSION" value="25.0.219"/>
       <env name="FORGE_GROUP" value="net.minecraftforge"/>

@@ -14,15 +14,15 @@ loaderVersion="[25,)" #mandatory (24 is current forge version)
 # The modid of the mod
 modId="ut" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
-version="1.0" #mandatory
+version="1.0.0" #mandatory
  # A display name for the mod
 displayName="Useless Things" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 #updateJSONURL="http://myurl.me/" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-#displayURL="http://example.com/" #optional
+displayURL="https://github.com/FilipCrafter14/UselessThings.wiki.git" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="examplemod.png" #optional
+logoFile="assets/logo.png" #optional
 # A text field displayed in the mod UI
 #credits="Don't know who to thank to?" #optional
 # A text field displayed in the mod UI
@@ -56,5 +56,5 @@ Some useless tools and blocks to help you progress (they really aren't as useles
 #    modId="fcore"
 #    mandatory=true
 #    versionRange="[1.13.2]"
-#    ordering="NONE"
+#    ordering="AFTER"
 #    side="CLIENT"

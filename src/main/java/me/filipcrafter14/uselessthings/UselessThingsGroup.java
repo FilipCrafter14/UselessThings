@@ -1,6 +1,6 @@
 package me.filipcrafter14.uselessthings;
 
-import me.filipcrafter14.uselessthings.lists.ItemList;
+import me.filipcrafter14.uselessthings.init.ModItems;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 
@@ -11,6 +11,6 @@ public class UselessThingsGroup extends ItemGroup {
 
     @Override
     public ItemStack createIcon() {
-        return new ItemStack(ItemList.redstone_infused_pearl);
+        return new ItemStack(ModItems.pearl_shard);
     }
 }

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ut:block/simple_generator"
+    }
+  }
+}

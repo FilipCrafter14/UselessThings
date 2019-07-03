@@ -1,33 +1,37 @@
-[01Jul2019 16:22:46.065] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190213.203750, --fml.mcVersion, 1.13.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 25.0.219, --version, MOD_DEV, --assetIndex, 1.13.1, --assetsDir, /Users/filip.skrget/.gradle/caches/forge_gradle/assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[01Jul2019 16:22:46.070] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher starting: java version 1.8.0_121
-[01Jul2019 16:22:46.533] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[01Jul2019 16:22:46.941] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file Mod File: /Users/filip.skrget/Desktop/F1/useless-things/run/mods/OptiFine_1.13.2_HD_U_E7.jar is missing mods.toml file
-[01Jul2019 16:22:46.942] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: File /Users/filip.skrget/Desktop/F1/useless-things/run/mods/OptiFine_1.13.2_HD_U_E7.jar has been ignored - it is invalid
-[01Jul2019 16:22:47.470] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /Users/filip.skrget/.gradle/caches/forge_gradle/assets, --assetIndex, 1.13.1, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[01Jul2019 16:22:52.196] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[01Jul2019 16:23:03.888] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[01Jul2019 16:23:03.926] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.1.6 build 14
-[01Jul2019 16:23:06.182] [Client thread/INFO] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
-[01Jul2019 16:23:06.286] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 25.0.219, for MC 1.13.2 with MCP 20190213.203750
-[01Jul2019 16:23:06.286] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v25.0.219 Initialized
-[01Jul2019 16:23:06.912] [Client thread/INFO] [ut/]: Items registered!
-[01Jul2019 16:23:06.937] [modloading-worker-1/INFO] [ut/]: Setup method registered!
-[01Jul2019 16:23:07.365] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[01Jul2019 16:23:07.404] [modloading-worker-1/INFO] [ut/]: clientRegistries method registered!
-[01Jul2019 16:23:07.433] [Client thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: forge-1.13.2-25.0.219_mapped_snapshot_20180921-1.13-recomp.jar, main, Default
-[01Jul2019 16:23:08.889] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 25.0.219 Target: 25.0.219
-[01Jul2019 16:23:11.242] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/]: Starting up SoundSystem version 201809301515...
-[01Jul2019 16:23:11.468] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: Initializing No Sound
-[01Jul2019 16:23:11.469] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: (Silent Mode)
-[01Jul2019 16:23:11.704] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: OpenAL initialized.
-[01Jul2019 16:23:11.850] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Preloading sound minecraft:sounds/ambient/underwater/underwater_ambience.ogg
-[01Jul2019 16:23:11.854] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Sound engine started
-[01Jul2019 16:23:16.948] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[01Jul2019 16:23:17.832] [Client thread/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'ut:blockstates/simple_generator.json' in resourcepack: 'main': null
-[01Jul2019 16:23:17.834] [Client thread/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'ut:blockstates/simple_generator_upgraded.json' in resourcepack: 'main': null
-[01Jul2019 16:23:19.139] [Client thread/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'ut:simple_generator#inventory' referenced from: ut:simple_generator#inventory: java.io.FileNotFoundException: ut:models/item/simple_generator.json
-[01Jul2019 16:23:19.140] [Client thread/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'ut:simple_generator_upgraded#inventory' referenced from: ut:simple_generator_upgraded#inventory: java.io.FileNotFoundException: ut:models/item/simple_generator_upgraded.json
-[01Jul2019 16:23:19.786] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Max texture size: 16384
-[01Jul2019 16:23:22.282] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Created: 512x512 textures-atlas
-[01Jul2019 16:23:26.562] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
-[01Jul2019 16:23:30.396] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[03Jul2019 13:43:58.781] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190213.203750, --fml.mcVersion, 1.13.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 25.0.219, --version, MOD_DEV, --assetIndex, 1.13.1, --assetsDir, /Users/filip.skrget/.gradle/caches/forge_gradle/assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[03Jul2019 13:43:58.790] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher starting: java version 1.8.0_121
+[03Jul2019 13:43:59.601] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[03Jul2019 13:44:00.659] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file Mod File: /Users/filip.skrget/Desktop/F1/useless-things/run/mods/cjcore-1.12-0.0.5.2.jar is missing mods.toml file
+[03Jul2019 13:44:00.660] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: File /Users/filip.skrget/Desktop/F1/useless-things/run/mods/cjcore-1.12-0.0.5.2.jar has been ignored - it is invalid
+[03Jul2019 13:44:00.662] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file Mod File: /Users/filip.skrget/Desktop/F1/useless-things/run/mods/multimeters-1.12-0.0.2.jar is missing mods.toml file
+[03Jul2019 13:44:00.663] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: File /Users/filip.skrget/Desktop/F1/useless-things/run/mods/multimeters-1.12-0.0.2.jar has been ignored - it is invalid
+[03Jul2019 13:44:01.758] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /Users/filip.skrget/.gradle/caches/forge_gradle/assets, --assetIndex, 1.13.1, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[03Jul2019 13:44:12.516] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[03Jul2019 13:44:50.911] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[03Jul2019 13:44:51.059] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.1.6 build 14
+[03Jul2019 13:44:57.573] [Client thread/INFO] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[03Jul2019 13:44:57.799] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 25.0.219, for MC 1.13.2 with MCP 20190213.203750
+[03Jul2019 13:44:57.799] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v25.0.219 Initialized
+[03Jul2019 13:44:59.141] [modloading-worker-0/INFO] [ut/]: Setup method registered!
+[03Jul2019 13:45:00.064] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[03Jul2019 13:45:00.157] [modloading-worker-2/INFO] [ut/]: clientRegistries method registered!
+[03Jul2019 13:45:00.487] [Client thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: forge-1.13.2-25.0.219_mapped_snapshot_20190530-1.13.2-recomp.jar, jei-1.13.2-5.0.0.29_mapped_snapshot_20190530-1.13.2.jar, main, Default
+[03Jul2019 13:45:02.802] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 25.0.219 Target: 25.0.219
+[03Jul2019 13:45:03.840] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/]: Starting up SoundSystem version 201809301515...
+[03Jul2019 13:45:04.107] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: Initializing No Sound
+[03Jul2019 13:45:04.108] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: (Silent Mode)
+[03Jul2019 13:45:04.546] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager/]: OpenAL initialized.
+[03Jul2019 13:45:04.561] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Preloading sound minecraft:sounds/ambient/underwater/underwater_ambience.ogg
+[03Jul2019 13:45:04.684] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager/SOUNDS]: Sound engine started
+[03Jul2019 13:45:09.144] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[03Jul2019 13:45:22.186] [Client thread/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Exception loading blockstate definition: 'ut:blockstates/simple_generator_upgraded.json' in resourcepack: 'main': null
+[03Jul2019 13:45:24.672] [Client thread/WARN] [net.minecraft.client.renderer.model.ModelBakery/]: Unable to load model: 'ut:simple_generator_upgraded#inventory' referenced from: ut:simple_generator_upgraded#inventory: java.io.FileNotFoundException: ut:models/item/simple_generator_upgraded.json
+[03Jul2019 13:45:25.636] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Max texture size: 16384
+[03Jul2019 13:45:30.496] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap/]: Created: 512x512 textures-atlas
+[03Jul2019 13:45:42.439] [Client thread/WARN] [net.minecraft.client.GameSettings/]: Skipping bad option: lastServer:
+[03Jul2019 13:45:44.708] [Client thread/INFO] [mezz.jei.gui.textures.JeiTextureMap/]: Max texture size: 16384
+[03Jul2019 13:45:44.734] [Client thread/INFO] [mezz.jei.gui.textures.JeiTextureMap/]: Created: 256x128 textures-atlas
+[03Jul2019 13:45:45.912] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[03Jul2019 13:47:26.650] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[03Jul2019 13:47:31.675] [Client thread/INFO] [net.minecraft.client.audio.SoundManager/]: SoundSystem shutting down...
+[03Jul2019 13:47:31.912] [Client thread/INFO] [net.minecraft.client.audio.SoundManager/]: SoundSystem Author: Paul Lamb, www.paulscode.com
