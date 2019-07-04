@@ -5,23 +5,19 @@ import net.minecraft.block.Block;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import static me.filipcrafter14.uselessthings.init.BlockBase.register;
+import static me.filipcrafter14.uselessthings.init.blocks.BlockBase.register;
 
 public class ModBlocks {
+
+    //Blocks
     public static Block simpleGenerator;
     public static Block simpleGeneratorUpgraded;
+
     public static void registerAll(RegistryEvent.Register<Block> event){
         if (!event.getName().equals(ForgeRegistries.BLOCKS.getRegistryName())) return;
-/*
-        simpleGenerator = register("simple_generator", new BlockGenerator(Block.Properties
-                .create(Material.IRON)
-                .hardnessAndResistance(3.0f)
-                .sound(SoundType.METAL)
-                .lightValue(3)));
 
- */
-        simpleGeneratorUpgraded = register("simple_generator_upgraded", new BlockGenerator());
         simpleGenerator = register("simple_generator", new BlockGenerator());
+        simpleGeneratorUpgraded = register("simple_generator_upgraded", new BlockGenerator());
     }
 
     /*

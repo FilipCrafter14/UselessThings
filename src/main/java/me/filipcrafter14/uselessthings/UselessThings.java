@@ -1,9 +1,13 @@
 package me.filipcrafter14.uselessthings;
 
 
+import me.filipcrafter14.uselessthings.init.ModTiles;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -28,8 +32,8 @@ public class UselessThings {
         MinecraftForge.EVENT_BUS.register(this);
 
         DistExecutor.runForDist(
-                () -> () -> new SideProxy.Client(),
-                () -> () -> new SideProxy.Server()
+                () -> SideProxy.Client::new,
+                () -> SideProxy.Server::new
         );
     }
 
@@ -47,6 +51,15 @@ public class UselessThings {
 
     @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents{
+        @SubscribeEvent
+        public static void registerTE(final RegistryEvent.Register<TileEntityType<?>> event){
+            final TileEntityType<?>[] tile = {
+                    ModTiles.simple_generator_tile,
+                    ModTiles.upgraded_generator_tile
+            };
+            event.getRegistry().registerAll(tile);
+            UselessThings.Logger.info("Registered all Tiles");
+        }
     }
 
     public static ResourceLocation location(String name){

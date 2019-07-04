@@ -1,6 +1,9 @@
 package me.filipcrafter14.uselessthings.tiles;
 
+import me.filipcrafter14.uselessthings.UselessThings;
 import me.filipcrafter14.uselessthings.energy.CustomEnergyStorage;
+import me.filipcrafter14.uselessthings.init.ModBlocks;
+import me.filipcrafter14.uselessthings.init.ModTiles;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.tileentity.TileEntityType;
@@ -14,19 +17,16 @@ import javax.annotation.Nonnull;
 
 public class TileEntitySimpleGenerator extends TileEntity implements ITickable {
 
-    private static TileEntityType<?> GEN = Null();
-
-    private static <T> T Null() {
-        return null;
-    }
 
     private CustomEnergyStorage storage = new CustomEnergyStorage(100000, 1000);
     private int energy = storage.getEnergyStored();
     private int cooldown;
 
     public TileEntitySimpleGenerator() {
-        super(GEN);
+        super(ModTiles.simple_generator_tile);
     }
+
+
 
     @Nonnull
     @Override
@@ -60,6 +60,8 @@ public class TileEntitySimpleGenerator extends TileEntity implements ITickable {
         if (energy != getMaxEnergyStored() && cooldown == 25)
             energy++;
         cooldown = 0;
+        System.out.println(energy);
+        UselessThings.Logger.info(energy);
     }
 
     public void update() {
@@ -67,6 +69,8 @@ public class TileEntitySimpleGenerator extends TileEntity implements ITickable {
         if (energy != getMaxEnergyStored() && cooldown == 25)
             energy++;
         cooldown = 0;
+        System.out.println(energy + "Update");
+        UselessThings.Logger.info(energy + "Update");
     }
 
 }

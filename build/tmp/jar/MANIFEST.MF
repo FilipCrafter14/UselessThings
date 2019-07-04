@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: useless-things
+Implementation-Version: 1.13.2-1.0.0
+Specification-Vendor: me.filipcrafter14.uselessthings
+Specification-Title: ut
+Implementation-Timestamp: 2019-07-01T19:09:39+0200
+Specification-Version: 1
+Implementation-Vendor: me.filipcrafter14.uselessthings
+

@@ -3,6 +3,7 @@ package me.filipcrafter14.uselessthings.init;
 import me.filipcrafter14.uselessthings.UselessThings;
 import me.filipcrafter14.uselessthings.init.items.ItemCustomAxe;
 import me.filipcrafter14.uselessthings.init.items.ItemCustomPickaxe;
+import me.filipcrafter14.uselessthings.init.items.ItemTier;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemSpade;
@@ -29,7 +30,7 @@ public class ModItems {
 
 
 
-    static final Map<String, ItemBlock> BLOCKS_TO_REGISTER = new LinkedHashMap<>();
+    public static final Map<String, ItemBlock> BLOCKS_TO_REGISTER = new LinkedHashMap<>();
 
     public static void registerAll(RegistryEvent.Register<Item> event){
         if (!event.getName().equals(ForgeRegistries.BLOCKS.getRegistryName())) return;

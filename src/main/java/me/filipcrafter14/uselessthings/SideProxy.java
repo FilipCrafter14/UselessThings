@@ -2,6 +2,7 @@ package me.filipcrafter14.uselessthings;
 
 import me.filipcrafter14.uselessthings.init.ModBlocks;
 import me.filipcrafter14.uselessthings.init.ModItems;
+import me.filipcrafter14.uselessthings.init.ModTiles;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent;
